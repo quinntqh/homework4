@@ -1,9 +1,154 @@
 *{
-  box-sizing: border-box
+	box-sizing: border-box
 }
 
 body{
-  margin:0;
-  font-family: helvetica;
-  background-color: #e6e6e6;  
+	margin:0;
+	font-family: helvetica;
+	background-color: #ffffff;  
+}
+
+nav {
+
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	top:0;
+	padding: 20px 10px;
+	border-bottom: 1px lightgrey solid;
+} 
+
+.menuicon {
+	width: 25px;
+	position:relative;
+	left:10px;
+}
+
+.logoicon {
+	width: 150px;
+	position: absolute;
+	left: 550px;
+	top: 10px;
+}
+
+.searchicon{
+	width: 35px;
+	position: absolute;
+	left: 1050px;
+	bottom: 28px;
+}
+
+.vidicon{
+	width: 35px;
+	position: absolute;
+	left: 1112px;
+	bottom: 28px;
+}
+
+.regicon{
+	width: 35px;
+	position: absolute;
+	left: 1180px;
+	bottom: 28px;
+}
+
+.secondnavbar{
+	position:fixed;
+	top:85px;
+	left:470px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	font-family: helvetica sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.series{
+	float:left;
+	padding-right: 40px;
+}
+
+.channels{
+	float:left;
+	padding-right: 40px;
+}
+
+.topics{
+	float:left;
+	padding-right: 40px;
+}
+
+.picks{
+	float:left;
+	padding-right: 40px;
+}
+
+.featurevideo{
+	background-color: grey;
+	width:100%;
+	height: 556px;
+	position:relative;
+	top:120px;
+}
+
+.play{
+	width:60px;
+	position: relative;
+	left: 600px;
+	bottom: 300px;
+}
+
+h1{
+	color:white;
+	font-size: 45px;
+	text-align: center;
+	position:relative;
+	bottom:300px;
+}
+
+p {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+.date {
+	position:relative;
+	bottom:290px;
+}
+
+.description {
+	position:relative;
+	bottom:315px;
+}
+
+
+.subvid1{
+	background-color:red;
+	width:48.5%;
+	height:400px;
+	position:relative;
+	top:150px;
+	padding-right: 20px;
+	float: left;
+}
+
+.subvid2{
+	background-color:red;
+	width:48.5%;
+	height:400px;
+	position:relative;
+	top:150px;
+	float:right;
+}
+
+.SV1{
+
+	background-size:contain;
+	background-repeat: no-repeat 50%;
+	width:105%;
+	height:100%;
 }
