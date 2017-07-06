@@ -9,7 +9,6 @@ body{
 }
 
 nav {
-
 	background-color: white;
 	position: fixed;
 	width: 100%;
@@ -17,6 +16,24 @@ nav {
 	padding: 20px 10px;
 	border-bottom: 1px lightgrey solid;
 } 
+
+.latest-videoswrapper{
+	max-width: 1400px;
+	margin:0 auto 60px;
+	display: grid;
+}
+
+/*@media (max-width:1040px) {
+	latest-videoswrapper { 
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width:600px) {
+	.latest-videoswrapper { 
+		grid-template-columns: 1fr 1fr;
+	}
+}*/
 
 .menuicon {
 	width: 25px;
@@ -53,8 +70,8 @@ nav {
 }
 
 .secondnavbar{
-	position:fixed;
-	top:85px;
+	position:absolute;
+	top:80px;
 	left:470px;
 }
 
@@ -87,11 +104,17 @@ a {
 }
 
 .featurevideo{
-	background-color: grey;
+	/*background-color: grey;*/
 	width:100%;
-	height: 556px;
+	height:556px;
+	margin-top: 120px;
 	position:relative;
-	top:120px;
+	top:0px;
+	display:block;
+}
+
+img{
+	display: block;
 }
 
 .play{
@@ -106,6 +129,7 @@ h1{
 	font-size: 45px;
 	text-align: center;
 	position:relative;
+	right:18px;
 	bottom:300px;
 }
 
@@ -113,10 +137,12 @@ p {
 	color: white;
 	font-size: 14px;
 	text-align: center;
+	right:18px;
 }
 
 .date {
 	position:relative;
+	right:20px;
 	bottom:290px;
 }
 
@@ -125,13 +151,17 @@ p {
 	bottom:315px;
 }
 
+.SubfeatVid{
+	border-bottom: 1px solid #c9a16e;
+	padding-bottom: 60px; 
+}
 
 .subvid1{
 	background-color:red;
 	width:48.5%;
 	height:400px;
 	position:relative;
-	top:150px;
+	top:30px;
 	padding-right: 20px;
 	float: left;
 }
@@ -141,7 +171,7 @@ p {
 	width:48.5%;
 	height:400px;
 	position:relative;
-	top:150px;
+	top:30px;
 	float:right;
 }
 
@@ -151,4 +181,56 @@ p {
 	background-repeat: no-repeat 50%;
 	width:105%;
 	height:100%;
+}
+
+.homepageplayer{
+	width:100%;
+	padding: 25px 0 30px 0;
+	border-bottom: 1px solid #c9a16e;
+
+}
+
+.vid{
+	width:220px;
+	margin:0 25px 0 25px;
+	float: left;
+}
+
+.timeline{
+	color: black;
+	font-size: 13px;
+	font-weight: lighter;
+	padding-left: 8px;
+	margin:0 0 8px;
+	text-align: center;
+}
+
+.vidname{
+	color: black;
+	font-size: 14px;
+	font-weight: 200;
+	padding-left: 10px;
+	text-align: center;
+}
+
+.mh{
+	position:absolute;
+	left:450px;
+	margin: 30px 0 0 47px;
+	font-family: helvetica;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 1.25;
+    letter-spacing: .09em;
+}
+
+.memvid{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	top:80px;
+	background-size: cover;
+
 }
